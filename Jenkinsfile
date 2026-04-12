@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Build stage running...'
+                echo 'Build stage running.....'
             }
         }
         stage('Test') {
             steps {
-                echo 'Test stage running...'
+                echo 'Test stage running.....'
             }
         }
     }
